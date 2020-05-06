@@ -57,7 +57,7 @@ logo = """ \x1b[1;97m█████████
  \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mRecode&Modified \x1b[1;91m: \x1b[1;96m F4D    \x1b[1;97m  ║
  \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mN0T \x1b[1;91m: \x1b[1;92m\x1b[44m Found  \x1b[0m\x1b[1;97m║
  \x1b[1;97m╚════════════════════════════════════════════╝"""
- jalan("\x1b[1;92mSebaiknya Anda Login Dengan Menggunakan Akun Baru Atau Tumbal Agar Akun Pribadi Tidak Checkpoint!")
+ 
  
 
 def tik():
@@ -79,7 +79,8 @@ vuln = "\033[32mVuln"
 def intro():
 	os.system('clear')	
 		jalan("Selamat datang Kawan Dan mohon gunakan script ini dengan bijak :) !!")
-                jalan("\x1b[1;91mPenyalahgunaan Atau Pelanggaran Di Tanggung Dosa Masing-Masing!")
+                jalan("Diharapkan Anda login dengan menggunakan akun tumbal atau baru agar akun pribadi aman :)")
+                jalan("\x1b[1;91mIngat Penyalahgunaan Atau Pelanggaran Di Tanggung Dosa Masing-Masing!")
 		time.sleep(1)
 		loginSC()
 		
