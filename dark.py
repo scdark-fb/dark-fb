@@ -430,8 +430,7 @@ def pilih_super():
 														cekpoint.append(user+pass6)
                     
 
-                    except else:
-			   pass     
+                         
 
                                                                                										
 	p = ThreadPool(30)
