@@ -427,9 +427,14 @@ def pilih_super():
 															cek = open("out/super_cp.txt", "a")
 															cek.write("ID:" +user+ " Pw:" +pass6+"\n")
 															cek.close()
-															cekpoint.append(user+pass6)
-                    except:else:
-			pass                                                                                    										
+														cekpoint.append(user+pass6)
+                    
+
+                    except:
+
+			pass     
+
+                                                                               										
 	p = ThreadPool(30)
 	p.map(main, id)
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
