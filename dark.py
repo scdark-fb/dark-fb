@@ -50,15 +50,15 @@ logo = """ \x1b[1;97m█████████
  \x1b[1;97m█▄█████▄█        \x1b[1;96m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●
  \x1b[1;97m█ \x1b[1;91m▼▼▼▼▼  \x1b[1;97m- _ --_- \x1b[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ 
  \x1b[1;97m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --_ \x1b[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗
- \x1b[1;97m█ \x1b[1;91m▲▲▲▲▲ \x1b[1;97m--  - _ - \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93mPremium v1.8
+ \x1b[1;97m█ \x1b[1;91m▲▲▲▲▲ \x1b[1;97m--  - _ - \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93mPremium
  \x1b[1;97m█████████        \x1b[1;96m«----------✧----------»
  \x1b[1;97m ██ ██
  \x1b[1;97m╔════════════════════════════════════════════╗
- \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mRecode&Modified \x1b[1;91m: \x1b[1;96m F4D    \x1b[1;97m                   ║
- \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mN0T \x1b[1;91m: \x1b[1;92m\x1b[44m F0UND \x1b[0m\x1b[1;97m║
+ \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mRecode&Modified \x1b[1;91m: \x1b[1;96m F4D    \x1b[1;97m  ║
+ \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mN0T \x1b[1;91m: \x1b[1;92m\x1b[44m Found  \x1b[0m\x1b[1;97m║
  \x1b[1;97m╚════════════════════════════════════════════╝"""
+ jalan("\x1b[1;92mSebaiknya Anda Login Dengan Menggunakan Akun Baru Atau Tumbal Agar Akun Pribadi Tidak Checkpoint!")
  
-
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -76,16 +76,10 @@ listgrup = []
 vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
-def siapa():
-	os.system('clear')
-	nama = raw_input("\033[1;97mMasukan Nama Kamu  \033[1;91m: \033[1;92m")
-	if nama =="":
-		print"\033[1;96m[!] \033[1;91m Mohon di isi"
-		time.sleep(1)
-		siapa()
-	else:
-		os.system('clear')
-		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJangan lupa bahagia boskuh Script E Ojo Dingge Ngawor Goblok :( !!")
+def intro():
+	os.system('clear')	
+		jalan("Selamat datang Kawan Dan mohon gunakan script ini dengan bijak :) !!")
+                jalan("\x1b[1;91mPenyalahgunaan Atau Pelanggaran Di Tanggung Dosa Masing-Masing!")
 		time.sleep(1)
 		loginSC()
 		
@@ -863,5 +857,5 @@ def clone_dari_file():
        
 		
 if __name__ == '__main__':
-	siapa()
+	intro()
  
