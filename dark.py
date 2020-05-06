@@ -429,9 +429,7 @@ def pilih_super():
 															cek.close()
 															cekpoint.append(user+pass6)
                     except:
-			pass                                                                                    										print '\x1b[33;1m[!] \x1b[0;1mPassword \x1b[1;91m: \x1b[0;1m' + pass6 + '\n'
-			
-		
+			pass                                                                                    										
 	p = ThreadPool(30)
 	p.map(main, id)
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSelesai \033[1;97m....'
