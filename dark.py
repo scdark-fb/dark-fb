@@ -105,7 +105,7 @@ def loginSC():
 		time.sleep(1)
 		login()
 	else:
-		print"\033[1;96m[!] \033[1;91mSalah Bosok!!"
+		print"\033[1;96m[!] \033[1;91mSok Tau Gua Tabok Online lu -_-!!"
 		os.system('xdg-open https://ockles.com/mHvZtek4na6U2WAYF')
                 time.sleep(1)
                 LoginSC()
@@ -124,7 +124,7 @@ def login():
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
-			br.open('https://m.facebook.com')
+			br.open('https://m.facebook.com/?stype=lo&jlou=AfcmTjL8JL5mruwdayt-NcxEcM-EK8fz8y3wmDApcGek1DvAO6lTAsfLgysnS6xzcq59Psby57sC--7QGfUTam6Nv_MEEdhZoeDyIfiyWhOjdg&smuh=36170&lh=Ac9916-gvh4eSX0L&_rdr')
 		except mechanize.URLError:
 			print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 			keluar()
@@ -208,7 +208,7 @@ def menu():
 def pilih():
 	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
 	if unikers =="":
-		print "\033[1;96m[!] \x1b[1;91mIsi Seng Bener Kon Tak Tapok"
+		print "\033[1;96m[!] \x1b[1;91mMohon Isi Yang Benar"
 		pilih()
 	elif unikers =="1":
 		super()
@@ -221,6 +221,7 @@ def pilih():
 	elif unikers =="0":
 		os.system('clear')
 		jalan('Menghapus token')
+                jalan('Semoga hari Anda Menyenangkan')
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
