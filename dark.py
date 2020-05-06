@@ -78,9 +78,9 @@ vuln = "\033[32mVuln"
 
 def intro():
 	os.system('clear')	
-		jalan("Selamat datang Kawan Dan mohon gunakan script ini dengan bijak :) !!")
-                jalan("Diharapkan Anda login dengan menggunakan akun tumbal atau baru agar akun pribadi aman :)")
-                jalan("\x1b[1;91mIngat Penyalahgunaan Atau Pelanggaran Di Tanggung Dosa Masing-Masing!")
+		jalan(print"Selamat datang Kawan Dan mohon gunakan script ini dengan bijak :) !!")
+                jalan(print"Diharapkan Anda login dengan menggunakan akun tumbal atau baru agar akun pribadi aman :)")
+                jalan(print"\x1b[1;91mIngat Penyalahgunaan Atau Pelanggaran Di Tanggung Dosa Masing-Masing!")
 		time.sleep(1)
 		loginSC()
 		
