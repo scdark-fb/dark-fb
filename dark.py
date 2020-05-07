@@ -54,7 +54,7 @@ logo = """ \x1b[1;97m█████████
  \x1b[1;97m█████████        \x1b[1;96m«----------✧----------»
  \x1b[1;97m ██ ██
  \x1b[1;97m╔════════════════════════════════════════════╗
- \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mRecode&Modified By \x1b[1;91m: \x1b[1;96m F4D    \x1b[1;97m                   ║
+ \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mRecode&Modified By \x1b[1;91m: \x1b[1;96m F4D    \x1b[1;97m     ║
  \x1b[1;97m║ \x1b[1;93m* \x1b[1;97mWelcome \x1b[1;91m: \x1b[1;92m\x1b[44m For You \x1b[0m\x1b[1;97m║
  \x1b[1;97m╚════════════════════════════════════════════╝"""
  
@@ -86,16 +86,18 @@ def siapa():
 	else:
 		os.system('clear')
 		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mJangan lupa bahagia boskuh!!")
-                jalan("Gunakan script ini dengan bijak")
-                jalan("Utamakan Login dengan akun baru atau tumbal")
 		time.sleep(1)
                 jalan("\x1b[1;93mPenyalahgunaan Dan Pelanggaran di Tanggung Sendiri")
-                time.sleep(1)
+                time.sleep(3)
 		loginSC()
 		
 		
 def loginSC():
 	os.system('clear')
+        print"\x1b[1;97m╔════════════════════════════════════════════╗"
+        print"\x1b[1;97m║ \x1b[1;93m* Recode&Modified By \x1b[1 ;91m:  F4D               ║"
+        print"\x1b[1;97m║ \x1b[1;93m* Welcome \x1b[1;91m:             For You            ║"
+        print"\x1b[1;97m╚════════════════════════════════════════════╝\n"
 	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu bro,\n"
 	
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
