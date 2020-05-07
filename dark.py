@@ -95,11 +95,10 @@ def siapa():
 def loginSC():
 	os.system('clear')
         print"\x1b[1;97m╔════════════════════════════════════════════╗\n"
-        print"\x1b[1;97m║ \x1b[1;93m* Recode&Modified By :F4D\n                            ║"
-        print"\x1b[1;97m║ \x1b[1;93m* Welcome            : +nama+\n                       ║"
+        print"\x1b[1;97m \x1b[1;93m* Recode&Modified By :F4D\n"
+        print"\x1b[1;97m \x1b[1;93m* Saran              :Gunakan Dengan Bijak"
         print"\x1b[1;97m╚════════════════════════════════════════════╝\n"
 	print"\033[1;97mSilahkan login Lisensi Scriptnya dulu bro,\n"
-	
         username = raw_input("\033[1;96m[*] \033[1;97mID \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="Dark"and password =="Fb":
