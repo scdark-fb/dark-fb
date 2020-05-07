@@ -109,7 +109,7 @@ def loginSC():
 		print"\033[1;96m[!] \033[1;91mSok Tau Gua Tabok Online lu -_-!!"
 		os.system('xdg-open https://ockles.com/mHvZtek4na6U2WAYF')
                 time.sleep(1)
-                LoginSC()
+                loginSC()
 
 def login():
 	os.system('clear')
