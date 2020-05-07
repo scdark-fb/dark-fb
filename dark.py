@@ -433,6 +433,7 @@ def pilih_super():
 															cek = open("out/super_cp.txt", "a")
 															cek.write("ID:" +user+ " Pw:" +pass6+"\n")
 															cek.close()
+                                                                                                                        cekpoint.append(user+pass6)
 		
 	
                   except:
